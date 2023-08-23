@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+}
+
+#fotoUser{
+    border-radius: 50%;
+    width: 150px;
+}
+
+h1{
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    color: whitesmoke; 
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.SobreMim{
+    color: whitesmoke; 
+    font-size: 16px; 
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.ListaExperiencias{
+    color: whitesmoke;
+    font-size: 18px;
+}
+.icone{
+    width: 45px;
+}

@@ -1,16 +1,80 @@
 body{
-    background-color: gray;
+    background-color: rgb(172, 170, 170);
 }
 
 #fotoUser{
     border-radius: 50%;
     width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1{
+.curriculoTitulo{
     background-color: cadetblue;
     color: whitesmoke;
     font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.meuNome{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.sobreMimTitulo{
+    color: whitesmoke; 
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+
+.listas2{
+    width: 40%;
+    height: 300px;
+    float: right;
+    margin-right: 122px;
+}
+
+.experienciasTitulo{
+    color: cadetblue; 
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px 170px;
+}
+
+.ListaExperiencias{
+    color: whitesmoke;
+    font-size: 18px;
+    list-style: circle;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.listas1{
+    width: 40%;
+    height: 300px;
+    float: right;
+    margin-left: 122px;
+}
+
+.curiosidadesTitulo{
+    color: cadetblue; 
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    margin: 20px 170px
+}
+
+.curiosidades{
+    font-size: 18px;
+    color: whitesmoke;
+    margin: 80px;
 }
 
 h2{
@@ -28,12 +92,35 @@ h3{
     color: whitesmoke; 
     font-size: 16px; 
     font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
-.ListaExperiencias{
-    color: whitesmoke;
-    font-size: 18px;
+.clear{
+    clear: both;
 }
+
+.Social{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid;
+}
+    
+.Social h4{
+    
+}
+
+.icon-container{
+    display: inline-block;
+    padding-right: 5px;
+
+}
+
 .icone{
     width: 45px;
+    margin-left: 90px;
+}
+
+.iconeGIT{
+    width: 80px;
+    height: 45px;
 }

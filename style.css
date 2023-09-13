@@ -1,126 +1,108 @@
-body{
-    background-color: rgb(172, 170, 170);
+body {
+  background-color: #1dafc3;
 }
 
-#fotoUser{
-    border-radius: 50%;
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#fotoUser {
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.curriculoTitulo{
-    background-color: cadetblue;
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', sans-serif;
-    text-align: center;
+.curriculoTitulo {
+  background-color: #152d36;
+  color: #1dafc3;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 
-.meuNome{
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', sans-serif;
-    text-align: center;
+.meuNome {
+  color: #15505e;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 
-.sobreMimTitulo{
-    color: whitesmoke; 
-    font-size: 20px;
-    font-family: 'Trebuchet MS', sans-serif;
-    text-align: center;
+.sobreMimTitulo {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 
-
-
-.listas2{
-    width: 40%;
-    height: 300px;
-    float: right;
-    margin-right: 122px;
+.listas {
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-left: 10%;
 }
 
-.experienciasTitulo{
-    color: cadetblue; 
-    font-size: 20px;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    margin: 20px 170px;
+.curiosidadesTitulo {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  position: absolute;
+  margin: 28px 170px;
 }
 
-.ListaExperiencias{
-    color: whitesmoke;
-    font-size: 18px;
-    list-style: circle;
-    margin-top: 40px;
-    margin-left: 50px;
+.curiosidades {
+  font-size: 18px;
+  color: #15505e;
+  margin: 80px;
 }
 
-.listas1{
-    width: 40%;
-    height: 300px;
-    float: right;
-    margin-left: 122px;
+h2 {
+  color: whitesmoke;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
-.curiosidadesTitulo{
-    color: cadetblue; 
-    font-size: 20px;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    position: absolute;
-    margin: 20px 170px
+h3 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
-.curiosidades{
-    font-size: 18px;
-    color: whitesmoke;
-    margin: 80px;
+.SobreMim {
+  color: #15505e;
+  font-size: 16px;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 
-h2{
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', sans-serif;
+.clear {
+  clear: both;
 }
 
-h3{
-    color: whitesmoke; 
-    font-size: 20px;
-    font-family: 'Trebuchet MS', sans-serif;
+.Social {
+  margin-right: 10%;
+  padding: auto;
+  text-align: center;
+  float: none;
 }
 
-.SobreMim{
-    color: whitesmoke; 
-    font-size: 16px; 
-    font-family: 'Trebuchet MS', sans-serif;
-    text-align: center;
+.Social h4 {
+  font-family: "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
-.clear{
-    clear: both;
+.icon-container {
+  display: inline-block;
+  padding-right: 5px;
+  display: block;
+  text-align: center;
 }
 
-.Social{
-    margin-left: 30%;
-    margin-right: 30%;
-    border: 1px solid;
-}
-    
-.Social h4{
-    
+.icone {
+  width: 45px;
+  margin-left: 5px;
 }
 
-.icon-container{
-    display: inline-block;
-    padding-right: 5px;
-
-}
-
-.icone{
-    width: 45px;
-    margin-left: 90px;
-}
-
-.iconeGIT{
-    width: 80px;
-    height: 45px;
+.iconeGIT {
+  width: 80px;
+  height: 45px;
 }
